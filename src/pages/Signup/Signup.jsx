@@ -26,7 +26,7 @@ export default function Signup() {
       localStorage.setItem("token", res.data.token);
 
       alert("Signup successful!");
-      navigate("/dashboard");
+      navigate("/");
 
     } catch (err) {
       alert(err.response?.data?.msg || "Signup failed");
