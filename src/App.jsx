@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import AppRoutes from "./routes/AppROUTES.JSX";
+import AppRoutes from "./AppRoutes";
 
 
 export default function App() {
@@ -8,6 +8,7 @@ export default function App() {
     <>
       <Navbar />
       <AppRoutes/>
-    </>
+
+   </>
   );
 }
